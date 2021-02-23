@@ -45,7 +45,7 @@ public class StartCommand implements CommandExecutor {
                     }
                 }
                 else {
-                    p.sendMessage(ChatColor.RED+"/enchantchallenge <start/stop>");
+                    p.sendMessage(ChatColor.CYAN+"/enchantchallenge <start/stop>");
                 }
             }
             else {
